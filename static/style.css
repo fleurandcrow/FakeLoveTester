@@ -1,0 +1,49 @@
+/*Import the fonts */
+@font-face
+{
+  font-family: 'Typewriter';
+  src: url('typewcond_demi.otf');
+  font-weight: normal;
+  font-size: normal;
+}
+
+@font-face
+{
+  font-family: 'SuperCaramel';
+  src: url('Super Caramel.ttf');
+  font-weight: normal;
+  font-size: normal;
+}
+
+/*change the title color, size and font */
+h1
+{
+  color: darkred;
+  font-size: 80px;
+  font-family: 'SuperCaramel', 'Typewriter', monospace, serif;
+}
+
+/*add background image */
+body
+{
+  background-image: url("hearts.jpg");
+}
+
+/*customize the rest of the page */
+*
+{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Typewriter', monospace, serif;
+}
+
+input
+{
+  color: black;
+}
+
+button
+{
+  color: black;
+}

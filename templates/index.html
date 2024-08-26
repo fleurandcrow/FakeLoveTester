@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}"
+    <title>Love Tester</title>
+</head>
+<body>
+    <h1>~Love Tester~</h1>
+    <p>How compatible are you with your crush?<p/><br/>
+    <p>Find out here!</p>
+    <form action="/results" method="">
+        <p>
+            <!-- Input the user's name -->
+            <label for="your_name">Your name : </label>
+            <input type="text" name="your_name" id="your_name" required>
+        </p>
+        <p>
+            <!-- Input the name of the user's crush -->
+            <label for="crush_name">Your crushe's name : </label>
+            <input type="text" name="crush_name" id="crush_name" required>
+        </p>
+        <p>
+            <!-- Send over the form's data -->
+            <input type="submit" value="TEST YOUR LOVE!!!!!!!!!">
+        </p>
+    </form>
+</body>
+</html>
+
+<!-- Slay queennnnn -->
