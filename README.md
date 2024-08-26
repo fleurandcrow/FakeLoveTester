@@ -5,9 +5,11 @@ Please keep in mind that this code does not work out of the box and requires man
 
 ## Dependencies
 
-Python 3.x 
-Flask
-Flask-Mail
+Python 3.x  
+
+Flask  
+
+Flask-Mail  
 
 ## Things to configure
 
