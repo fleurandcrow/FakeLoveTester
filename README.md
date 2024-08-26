@@ -3,6 +3,12 @@ A prototype for a "Love Tester" website that emails the user's name and crush na
 
 Please keep in mind that this code does not work out of the box and requires manual configuration.
 
+## Dependencies
+
+Python 3.x 
+Flask
+Flask-Mail
+
 ## Things to configure
 
 Before being able to run the script, email credentials will have to configured in the code. This includes a sender email that will send emails via the code and a receiver email that receives the sent emails.
