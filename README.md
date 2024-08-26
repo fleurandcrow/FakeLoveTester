@@ -1,11 +1,9 @@
 # FakeLoveTester
-A prototype for a "Love Tester" website that emails the user's name and crush name inputs to a specified email
-
-Please keep in mind that this code does not work out of the box and requires manual configuration.
+A prototype for a "Love Tester" website that emails the user's name and crush name inputs to a specified email (said email features have been removed from this branch)
 
 ## No email branch
 
-This branch is essentially the same code as the main branch, except all of the sneaky emailing has been removed. The purpose of this branch is to be able to rest the webUI without needing to configure any emails.
+This branch is essentially the same code as the main branch, except all of the sneaky emailing has been removed. The purpose of this branch is to be able to test the webUI without needing to configure any emails.
 
 ## Dependencies
 
