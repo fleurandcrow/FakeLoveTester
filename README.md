@@ -3,40 +3,15 @@ A prototype for a "Love Tester" website that emails the user's name and crush na
 
 Please keep in mind that this code does not work out of the box and requires manual configuration.
 
+## No email branch
+
+This branch is essentially the same code as the main branch, except all of the sneaky emailing has been removed. The purpose of this branch is to be able to rest the webUI without needing to configure any emails.
+
 ## Dependencies
 
 Python 3.x  
 
 Flask  
-
-Flask-Mail  
-
-## Things to configure
-
-Before being able to run the script, email credentials will have to configured in the code. This includes a sender email that will send emails via the code and a receiver email that receives the sent emails.
-
-First of all, the SMTP email credentials (lines 8-13) must be set correctly:
-
-```python
-#these mail settings have to be changed in order for the mail sending to work
-app.config['MAIL_SERVER']= 'smtp.server.here' #replace with your actual SMTP server
-app.config['MAIL_PORT'] = 465 #mail port varies depending on the service
-app.config['MAIL_USERNAME'] = 'your@email.here' #replace with your actual email
-app.config['MAIL_PASSWORD'] = 'your_password_here' #replace with your actual email password
-app.config['MAIL_USE_TLS'] = True
-```
-The recipient email address(es) must also be configured, any valid email address or alias may be used as a recipient.
-
-```python
-    #sends you (or any recipient) the name of the user and the name of their crush
-    message = Message(
-            subject=f"{your_name} has a crush...",
-            recipients=['receiver@email.here'], #the recipients can be set to any valid email address(es)
-            sender='your@email.here', #the sender must be your SMTP email
-            ) 
-    message.body = f"{your_name} has a crush on {crush_name}!"
-```
-The code does not provide any SMTP sender email address, thus you will need to obtain and use your own SMTP email. 
 
 ## Usage
 
